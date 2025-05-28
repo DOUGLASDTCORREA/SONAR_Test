@@ -1,5 +1,9 @@
 import React from 'react';
 
+type CarouselProps = {
+  type: 'estudos' | 'dashboards' | 'publicacoes';
+};
+
 const exampleItems = {
   estudos: [
     { id: 1, title: "Estudo de Mercado: Químicos", author: "Equipe IM", date: "2025-05-10" },
@@ -15,7 +19,7 @@ const exampleItems = {
   ]
 };
 
-export default function Carousel({ type }: { type: keyof typeof exampleItems }) {
+const Carousel: React.FC<CarouselProps> = ({ type }) => {
   return (
     <div className="carousel">
       {exampleItems[type].map(item => (
@@ -28,4 +32,6 @@ export default function Carousel({ type }: { type: keyof typeof exampleItems }) 
       ))}
     </div>
   );
-}
+};
+
+export default Carousel;
