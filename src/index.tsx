@@ -7,7 +7,7 @@ import Reports from './pages/Reports';
 import Tools from './pages/Tools';
 import StrategyRoom from './pages/StrategyRoom';
 import Foresight from './pages/Foresight';
-import DecisionRoom from './pages/DecisionRoom';
+import DecisionRoom from './pages/DecisionRooms';
 import CentralIM from './pages/CentralIM';
 import ContentExample from './pages/ContentExample';
 
