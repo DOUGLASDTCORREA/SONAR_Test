@@ -5,7 +5,7 @@ import Dashboards from './pages/Dashboard';
 import MarketStudies from './pages/MarketStudies';
 import Reports from './pages/Reports';
 import Tools from './pages/Tools';
-import StrategyRoom from './pages/StrategyRoom';
+import StrategyRoom from './pages/StrategyRooms';
 import Foresight from './pages/Foresight';
 import DecisionRoom from './pages/DecisionRooms';
 import CentralIM from './pages/CentralIM';
