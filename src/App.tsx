@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, NavLink } from 'react-router-dom';
+import { HashRouter as Router, NavLink } from 'react-router-dom';
 import Routes from './routes';
 import './assets/styles/theme.css';
 
