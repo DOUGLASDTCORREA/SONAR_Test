@@ -1,11 +1,29 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import './assets/styles/theme.css';
+import { Switch, Route } from 'react-router-dom';
+import Home from '../pages/Home';
+import Dashboards from '../pages/Dashboards';
+import MarketStudies from '../pages/MarketStudies';
+import Reports from '../pages/Reports';
+import Tools from '../pages/Tools';
+import StrategyRoom from '../pages/StrategyRoom';
+import Foresight from '../pages/Foresight';
+import DecisionRoom from '../pages/DecisionRoom';
+import CentralIM from '../pages/CentralIM';
+import ContentExample from '../pages/ContentExample';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+export default function Routes() {
+  return (
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route path="/dashboards" component={Dashboards} />
+      <Route path="/market-studies" component={MarketStudies} />
+      <Route path="/reports" component={Reports} />
+      <Route path="/tools" component={Tools} />
+      <Route path="/strategy-room" component={StrategyRoom} />
+      <Route path="/foresight" component={Foresight} />
+      <Route path="/decision-room" component={DecisionRoom} />
+      <Route path="/central-im" component={CentralIM} />
+      <Route path="/content-example" component={ContentExample} />
+    </Switch>
+  );
+}
