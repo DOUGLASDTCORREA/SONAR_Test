@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Sonar_Test/static/css/main.074e68b6.chunk.css",
-    "main.js": "/Sonar_Test/static/js/main.16611964.chunk.js",
-    "main.js.map": "/Sonar_Test/static/js/main.16611964.chunk.js.map",
+    "main.css": "/Sonar_Test/static/css/main.3d094ae7.chunk.css",
+    "main.js": "/Sonar_Test/static/js/main.c351ddb0.chunk.js",
+    "main.js.map": "/Sonar_Test/static/js/main.c351ddb0.chunk.js.map",
     "runtime-main.js": "/Sonar_Test/static/js/runtime-main.2acb114f.js",
     "runtime-main.js.map": "/Sonar_Test/static/js/runtime-main.2acb114f.js.map",
-    "static/js/2.d25fcc3f.chunk.js": "/Sonar_Test/static/js/2.d25fcc3f.chunk.js",
-    "static/js/2.d25fcc3f.chunk.js.map": "/Sonar_Test/static/js/2.d25fcc3f.chunk.js.map",
+    "static/js/2.d77389d4.chunk.js": "/Sonar_Test/static/js/2.d77389d4.chunk.js",
+    "static/js/2.d77389d4.chunk.js.map": "/Sonar_Test/static/js/2.d77389d4.chunk.js.map",
     "index.html": "/Sonar_Test/index.html",
-    "static/css/main.074e68b6.chunk.css.map": "/Sonar_Test/static/css/main.074e68b6.chunk.css.map",
-    "static/js/2.d25fcc3f.chunk.js.LICENSE.txt": "/Sonar_Test/static/js/2.d25fcc3f.chunk.js.LICENSE.txt"
+    "static/css/main.3d094ae7.chunk.css.map": "/Sonar_Test/static/css/main.3d094ae7.chunk.css.map",
+    "static/js/2.d77389d4.chunk.js.LICENSE.txt": "/Sonar_Test/static/js/2.d77389d4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2acb114f.js",
-    "static/js/2.d25fcc3f.chunk.js",
-    "static/css/main.074e68b6.chunk.css",
-    "static/js/main.16611964.chunk.js"
+    "static/js/2.d77389d4.chunk.js",
+    "static/css/main.3d094ae7.chunk.css",
+    "static/js/main.c351ddb0.chunk.js"
   ]
 }
