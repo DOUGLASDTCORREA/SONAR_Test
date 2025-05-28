@@ -15,11 +15,11 @@ export default function Routes() {
   return (
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route path="/dashboards" component={Dashboards} />
+      <Route path="/dashboards" component={Dashboard} />
       <Route path="/market-studies" component={MarketStudies} />
       <Route path="/reports" component={Reports} />
       <Route path="/tools" component={Tools} />
-      <Route path="/strategy-room" component={StrategyRoom} />
+      <Route path="/strategy-room" component={StrategyRooms} />
       <Route path="/foresight" component={Foresight} />
       <Route path="/decision-room" component={DecisionRoom} />
       <Route path="/central-im" component={CentralIM} />
