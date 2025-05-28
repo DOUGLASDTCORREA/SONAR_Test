@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Dashboards from './pages/Dashboards';
+import Dashboards from './pages/Dashboard';
 import MarketStudies from './pages/MarketStudies';
 import Reports from './pages/Reports';
 import Tools from './pages/Tools';
