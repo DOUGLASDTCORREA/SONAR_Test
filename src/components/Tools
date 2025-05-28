@@ -1,0 +1,26 @@
+import React from 'react';
+
+const Tools = () => {
+    return (
+        <div className="tools-container">
+            <h1>Tools and Resources</h1>
+            <ul>
+                <li>
+                    <a href="/tool1" target="_blank" rel="noopener noreferrer">Tool 1</a>
+                    <p>Description of Tool 1.</p>
+                </li>
+                <li>
+                    <a href="/tool2" target="_blank" rel="noopener noreferrer">Tool 2</a>
+                    <p>Description of Tool 2.</p>
+                </li>
+                <li>
+                    <a href="/tool3" target="_blank" rel="noopener noreferrer">Tool 3</a>
+                    <p>Description of Tool 3.</p>
+                </li>
+                {/* Add more tools as needed */}
+            </ul>
+        </div>
+    );
+};
+
+export default Tools;
